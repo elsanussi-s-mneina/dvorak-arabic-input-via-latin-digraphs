@@ -497,6 +497,10 @@
         </keyMap>
     </keyMapSet>
     <actions>
+        <action id="&#x0027;">
+            <when state="none" output="&#x0027;"/>
+            <when state="Dead Key State q" output="آ"/>
+        </action>
         <action id="Dead Key State d">
             <when state="none" output="ى"/>
             <when state="Dead key a" output="َى"/>
