@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 3.4.2.314 on 2020-12-16 at 15:13 (GMT-6)-->
-<!--Last edited by Ukelele version 3.4.2.314 on 2020-12-17 at 12:49 (GMT-6)-->
+<!--Last edited by Ukelele version 3.4.2.314 on 2020-12-17 at 12:51 (GMT-6)-->
 <keyboard group="126" id="-21208" name="LatinArabicInput" maxout="3">
     <layouts>
         <layout first="0" last="17" mapSet="ANSI" modifiers="Modifiers"/>
@@ -71,7 +71,7 @@
             <key code="35" output="ل"/>
             <key code="36" output="&#x000D;"/>
             <key code="37" output="ن"/>
-            <key code="38" action="ذ"/>
+            <key code="38" action="ذ 1"/>
             <key code="39" output="-"/>
             <key code="40" action="ت"/>
             <key code="41" action="Dead Key State s"/>
@@ -526,15 +526,12 @@
         </action>
         <action id="ح">
             <when state="none" output="ح"/>
-            <when state="Dead Key State g" output="ع"/>
-            <when state="Dead Key State h" output="ح"/>
         </action>
         <action id="خ">
             <when state="none" output="ڤ"/>
             <when state="Dead Key State d" output="ض"/>
             <when state="Dead Key State dh" output="ظ"/>
-            <when state="Dead Key State g" output="ق"/>
-            <when state="Dead Key State h" output="خ"/>
+            <when state="Dead Key State g" output="ع"/>
             <when state="Dead Key State s" output="ص"/>
             <when state="Dead Key State sh" output="ض"/>
             <when state="Dead Key State t" output="ط"/>
@@ -544,7 +541,17 @@
             <when state="none" next="Dead Key State d"/>
         </action>
         <action id="ذ">
-            <when state="none" next="Dead Key State h"/>
+            <when state="none" output=""/>
+            <when state="Dead Key State c" output="چ"/>
+            <when state="Dead Key State d" next="Dead Key State dh"/>
+            <when state="Dead Key State g" output="غ"/>
+            <when state="Dead Key State k" output="خ"/>
+            <when state="Dead Key State s" output="ه"/>
+            <when state="Dead Key State sh" output="ح"/>
+            <when state="Dead Key State t" output="ث"/>
+        </action>
+        <action id="ذ 1">
+            <when state="none" output=""/>
             <when state="Dead Key State c" output="چ"/>
             <when state="Dead Key State d" next="Dead Key State dh"/>
             <when state="Dead Key State g" output="غ"/>
