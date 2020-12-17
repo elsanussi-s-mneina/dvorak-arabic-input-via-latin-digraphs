@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 3.4.2.314 on 2020-12-16 at 15:13 (GMT-6)-->
-<!--Last edited by Ukelele version 3.4.2.314 on 2020-12-17 at 07:22 (GMT-6)-->
+<!--Last edited by Ukelele version 3.4.2.314 on 2020-12-17 at 12:24 (GMT-6)-->
 <keyboard group="126" id="-21208" name="LatinArabicInput" maxout="3">
     <layouts>
         <layout first="0" last="17" mapSet="ANSI" modifiers="Modifiers"/>
@@ -45,7 +45,7 @@
             <key code="8" action="ي"/>
             <key code="9" action="ك"/>
             <key code="11" action="ش"/>
-            <key code="12" output="&#x0027;"/>
+            <key code="12" action="&#x0027;"/>
             <key code="13" output="،"/>
             <key code="14" output="."/>
             <key code="15" output="پ"/>
@@ -57,10 +57,10 @@
             <key code="21" output="٤"/>
             <key code="22" output="٦"/>
             <key code="23" output="٥"/>
-            <key code="24" output="="/>
+            <key code="24" output="["/>
             <key code="25" output="٩"/>
             <key code="26" output="٧"/>
-            <key code="27" output="-"/>
+            <key code="27" output="]"/>
             <key code="28" output="٨"/>
             <key code="29" output="٠"/>
             <key code="30" output="="/>
@@ -75,7 +75,7 @@
             <key code="39" output="-"/>
             <key code="40" action="ت"/>
             <key code="41" action="Dead Key State s"/>
-            <key code="42" output=""/>
+            <key code="42" output="\"/>
             <key code="43" action="و"/>
             <key code="44" action="ز"/>
             <key code="45" output="ب"/>
@@ -140,19 +140,19 @@
             <key code="15" output=""/>
             <key code="16" output=""/>
             <key code="17" output=""/>
-            <key code="18" output=""/>
-            <key code="19" output=""/>
-            <key code="20" output=""/>
-            <key code="21" output=""/>
-            <key code="22" output=""/>
-            <key code="23" output=""/>
-            <key code="24" output=""/>
-            <key code="25" output=""/>
-            <key code="26" output=""/>
-            <key code="27" output=""/>
-            <key code="28" output=""/>
-            <key code="29" output=""/>
-            <key code="30" output=""/>
+            <key code="18" output="!"/>
+            <key code="19" output="@"/>
+            <key code="20" output="#"/>
+            <key code="21" output="$"/>
+            <key code="22" output="^"/>
+            <key code="23" output="٪"/>
+            <key code="24" output="{"/>
+            <key code="25" output=")"/>
+            <key code="26" output="&#x0026;"/>
+            <key code="27" output="}"/>
+            <key code="28" output="*"/>
+            <key code="29" output="("/>
+            <key code="30" output="+"/>
             <key code="31" output=""/>
             <key code="32" output=""/>
             <key code="33" output="؟"/>
@@ -164,7 +164,7 @@
             <key code="39" output="ـ"/>
             <key code="40" output="ة"/>
             <key code="41" output="ّ"/>
-            <key code="42" output=""/>
+            <key code="42" output="|"/>
             <key code="43" output="ۥ"/>
             <key code="44" output=""/>
             <key code="45" output=""/>
@@ -318,18 +318,18 @@
             <key code="15" output=""/>
             <key code="16" output=""/>
             <key code="17" output=""/>
-            <key code="18" output=""/>
-            <key code="19" output=""/>
-            <key code="20" output=""/>
-            <key code="21" output=""/>
-            <key code="22" output=""/>
-            <key code="23" output=""/>
+            <key code="18" output="1"/>
+            <key code="19" output="2"/>
+            <key code="20" output="3"/>
+            <key code="21" output="4"/>
+            <key code="22" output="6"/>
+            <key code="23" output="5"/>
             <key code="24" output=""/>
-            <key code="25" output=""/>
-            <key code="26" output=""/>
+            <key code="25" output="9"/>
+            <key code="26" output="7"/>
             <key code="27" output=""/>
-            <key code="28" output=""/>
-            <key code="29" output=""/>
+            <key code="28" output="8"/>
+            <key code="29" output="0"/>
             <key code="30" output=""/>
             <key code="31" output=""/>
             <key code="32" output=""/>
